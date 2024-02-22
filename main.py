@@ -14,9 +14,8 @@ def recursive_fibonacci(n):
       return recursive_fibonacci(n-1) + recursive_fibonacci(n-2)  
 
 for i in range(1, 1000): 
-    print(i, ":", recursive_fibonacci(i+1) / recursive_fibonacci(i)) 
+    print(i, ":", recursive_fibonacci(i)) 
 
-# 1.6180 => Golden Ratio 
 
     
     # recur(5) => recur(4) + recur(3)
